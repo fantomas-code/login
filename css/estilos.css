@@ -1,0 +1,111 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background: orange;
+}
+
+header
+{
+	background: red;
+	position: fixed;
+	padding: .2em;
+	width: 100%;
+}
+
+b
+{
+	color: #efe;
+	text-shadow:-1px 3px 0px #277;
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+	margin: 0 37em 0 auto;
+	text-shadow:-1px 3px 0px #277;	
+}
+
+div
+{
+	background: purple;
+	border-radius: .2em;
+	color: #efe;
+	cursor: pointer;
+	max-width: 13%;
+	margin-left: 360px;
+	margin-top: 14px;
+	text-align: center;
+	padding: .3em;
+}
+
+p
+{
+	text-align: right;
+
+}
+
+
+label
+{
+	text-align: right;
+	cursor: pointer;
+	color: #efe;
+	margin: 0 0 2em auto;
+	text-shadow:-1px 3px 0px #277;
+
+}
+
+#v
+{
+	text-align: right;
+}
+
+#s
+{
+	text-align: right;
+}
+
+#a
+{
+	vertical-align: top;
+	margin: 0 7em 0 auto;
+}
+
+#oculto
+{
+	background: #243;
+	border-radius: .2em;
+	max-width: 30%;
+	margin-top: 1px;
+	padding: .5em;
+	margin-left: 360px;
+	display: none;
+}
+
+input[type="submit"]
+{
+	background: grey;
+	color: white ;
+	margin: 0 1em 0 auto;
+	padding: .1em;
+}
+
+input[type="email"],input[type="password"]
+{
+	
+	color: black ;
+	border-radius: .2em;
+	margin: .4em auto .2em auto;
+}
+
+input[type="file"]
+{
+	/*margin: 0 0 0 35em;*/
+	opacity: 0;
+}
