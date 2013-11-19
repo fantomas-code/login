@@ -37,12 +37,6 @@ CREATE TABLE IF NOT EXISTS `angy` (
 --
 -- Volcado de datos para la tabla `angy`
 --
-
-INSERT INTO `angy` (`id`, `correo`, `nombre`, `pass`) VALUES
-(11, 'kalifas77@gmail.com', 'Alberto', 'dc0fa7df3d07904a09288bd2d2bb5f40'),
-(12, 'hokaguegaara@outlook.com', 'Angelica', 'a36d0b7ee2b4dfcd5646e2fdd8cfad43'),
-(13, 'charolastra@gmail.com', 'Sabroso', '202cb962ac59075b964b07152d234b70');
-
 -- --------------------------------------------------------
 
 --
@@ -60,8 +54,7 @@ CREATE TABLE IF NOT EXISTS `comentar` (
 -- Volcado de datos para la tabla `comentar`
 --
 
-INSERT INTO `comentar` (`id`, `nombre`, `mensaje`) VALUES
-(4, 'Alberto', 'Esconde tu vergÃƒÂ¼enza en tu corazÃƒÂ³n y vÃƒÂ­stete de amor que aun no acabo la fiesta');
+
 
 -- --------------------------------------------------------
 
@@ -79,9 +72,7 @@ CREATE TABLE IF NOT EXISTS `foto` (
 -- Volcado de datos para la tabla `foto`
 --
 
-INSERT INTO `foto` (`id`, `foto`) VALUES
-(9, 'img/Koala.jpg'),
-(10, 'img/10-08-12_1534.jpg');
+
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
